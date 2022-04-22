@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bay cung ban</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="icon" type="image/png" href="img/icon.ico">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <div id="slide_home">
+                <img src="img/begina-kisembo--rMEwp6TMLs-unsplash.jpg" alt="home" class="img">
+                <h3 class="text">Hello! <br>where are <br>you <a>flying</a> to... </h3>
+            </div>
+            <div class="title"><a href="Home.html">Baycungban</a></div>
+            <div class="point"></div>
+            <img src="img/flag_vi.png" alt="" class="language1">
+            <img src="img/3909383.png" alt="" class="language2">
+
+            <div id="menu">
+                <ul>
+                    <li><a href="">Promotion</a></li>
+                    <li><a href="Fights_Sechedule.html">Flight Schedule</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Payment Guide</a></li>
+                </ul>
+            </div>
+            <div id="booking">
+                <button class="btn">Booking now</button>
+            </div>
+        </header>
+        <div id="main">
+            <div id="main_box">
+                <div class="round_trip">
+                    <p class="radius1"></p>
+                    <p class="text1">One way / Round-trip</p>
+                    <p class="radius2"></p>
+                    <p class="text2">Multi-city</p>
+                    <p class="text3"> <a href="#">02</a> Adult, <a href="">01</a> children</p>
+                    <i class="icon fas fa-sort-down"></i>
+                    <p class="text4">Business Class</p>
+                    <i class="icon1 fas fa-sort-down"></i>
+                </div>
+                <div class="airline">
+                    <div class="from">
+                        <p class="from_title">from</p>
+                        <h6 class="from_place">Da Nang</h6>
+                        <p class="from_more">Quang Nam, Viet Nam</p>
+                    </div>
+                    <div class="to">
+                        <p class="to_title">to</p>
+                        <h6 class="to_place">Ho Chi Minh</h6>
+                        <p class="to_more">Viet Nam</p>
+                    </div>
+                    <div class="border1"></div>
+                    <div class="border2"></div>
+                    <img class="arrow" src="img/877894-200.png" alt="arrow">
+                    <div class="time">
+                        <div class="time_start">
+                            <p class="time_title">Departure</p>
+                            <h6 class="time_day" style="display: flex;">
+                                <div id="displayFromDate"></div>
+                                <img src="img/free-calendar-icon-865-thumb.png" alt="celendar" />
+                                <input type="date" id="fromDate" onchange="functionFromDate(this.value)" />
+                            </h6>
+                            <p class="time_next1"> Next</p>
+                            <b>prev</b>
+                        </div>
+                        <div class="time_stop">
+                            <p class="time_title">return</p>
+                            <h6 class="time_day">
+                                <div id="displayToDate"></div>
+                                <img src="img/free-calendar-icon-865-thumb.png" alt="celendar" />
+                                <input type="date" id="toDate" onchange="functionToDate(this.value)" />
+                            </h6>
+                            <p class="time_next"> Prev Next</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="round_search">
+                    <p class="text">Search Flights</p>
+                    <img src="img/60934.png" alt="" class="arrow_right">
+                </button>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="box"></div>
+            <img class="icon1" src="img/molumen-phone-icon.png" alt="">
+            <p class="phone">Call us: + 84 908 02 02 58</p>
+            <img src="img/mail.png" alt="" class="icon2">
+            <p class="email">Email: Chucinog@gmail.com</p>
+            <p class="social">Follow us</p>
+            <div class="border5"></div>
+            <img src="img/face.png" alt="" class="icon3">
+            <img src="img/Instagram.png" alt="" class="icon4">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

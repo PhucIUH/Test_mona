@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "SVN-Biennale";
+    src: url("/font/Biennale-Bold.otf") format("truetype"),url("/font/Biennale-Book.otf") format("opentyle");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: "SVN-Biennale";
+    width: 1512px;
+    height: 482px;
+    background: #E5E5E5;
+
+}
